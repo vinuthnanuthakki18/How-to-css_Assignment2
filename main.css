@@ -1,0 +1,220 @@
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.restaurant{
+    width: 450px;
+    margin: 40px 20px;
+    padding: 15px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    display: inline-block;
+}
+.res-img-class{
+    position: relative;
+}
+.res-img{
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+}
+
+.res-name h3{
+    color: #444343;
+}
+.res-promoted{
+    position: absolute;
+    top: 4px;
+    left: 12px;
+    color: #e0dede;
+    background-color: rgb(150, 148, 148);
+    border-radius: 5px;
+    padding: 0 7px;
+}
+
+.res-off{
+    position: absolute;
+    bottom: 5px;
+    background-color: rgb(73, 184, 220);
+    font-size: 15px;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.res-min{
+    position: absolute;    
+    bottom: 5px;
+    right: 12px;
+    background-color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.max-safety{
+    width: 100%;
+    display: inline-block;
+    border-top: 1px solid lightgrey;
+}
+.max-img{
+    width: 100px;
+}
+
+.max-p{
+    display: inline-block;
+    color: #454444;
+}
+
+.paris{
+    width: 700px;
+    position: relative;
+    margin: 40px auto;
+}
+
+.paris-img{
+    width: 100%;
+    border-radius: 10px;
+    height: 500px;
+}
+
+.about-paris{
+    position: absolute;
+    bottom: 150px;
+    left: 15px;
+    color: white;
+}
+
+.paris-head{
+    position: absolute;
+    bottom: 200px;
+    left: 150px;
+    color: white;
+}
+
+.paris-explore-btn{
+    position: absolute;
+    bottom: 100px;
+    left: 280px;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.res-banner{
+    width: 1000px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.res-banner-img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.res-banner-name{
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 390px;
+    font-size: 50px;
+}
+
+.about-banner{
+    position: absolute;
+    top: 90px;
+    left: 250px;
+    color: white;
+    font-size: 25px;
+}
+
+.region{
+    width: 50px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    padding: 10px 50px;
+    position: relative;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.loc-pin{
+    width: 20%;
+    position: absolute;
+    left: 12px;
+    top: 19px;
+}
+
+.banner-para{
+    display: inline-block;
+}
+
+.res-search{
+    width: 500px;
+    display: inline-block;
+    position: relative;
+    padding: 10px 50px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    border-left: 0;
+    background-color: white;
+}
+
+.search-img{
+    width: 5%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.search-banner{
+    position: relative;
+}
+
+.res-move{
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+}
+
+.profile-banner{
+    width: 500px;
+    margin: 40px auto;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+
+.images{
+    width: 100%;
+    position: relative;
+}
+
+.bg{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.pf{
+    width: 30%;
+    border-radius: 100%;
+    height: 150px;
+    border: 3px solid white;
+    position: absolute;
+    left: 175px;
+    bottom: -70px;
+}
+
+.banner-details{
+    padding: 60px 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.banner-details p{
+    color: rgb(76, 75, 75);
+}
