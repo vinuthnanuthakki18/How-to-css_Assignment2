@@ -1,0 +1,223 @@
+body{
+    font-family: 'Circular', sans-serif;
+    margin: 0;
+}
+.header{
+    width: 100%;
+    color: black;
+    padding: 20px 0;
+    text-align: center;    
+    background-color:rgb(241, 239, 239);
+}
+.page{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 2px 0;
+    z-index: 1;
+
+}
+.logo-class{
+    width: 200px;
+}
+.logo{
+    width: 80%;
+    height: 100px;
+    justify-content: start;
+    display: flex;
+}
+
+.navigation{
+    display: flex;
+    gap: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+
+.search-h6{
+    position:absolute;
+    top: 12px;
+    margin: 0;
+    left: 8px;
+
+}
+
+.search-1{
+    width: 150px;
+    position: relative;
+}
+.input-search{
+    width: 100%;
+    border: none;
+    padding: 25px 2px;
+    border-radius: 30px;
+}
+.search-2, .search-3{
+    width: 130px;
+    border-left: 1px solid lightgray;
+    position: relative;
+}
+.search-4{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 0 10px;
+    border-left: 1px solid lightgray;
+    position: relative;
+}
+
+.search4-h6{
+    position:absolute;
+    top: 12px;
+    margin: 0;
+    left: 18px;
+}
+.more-det-icon{
+    width: 50px;
+}
+.profile-icon{
+    width: 35px;
+    padding-right: 10px;
+}
+.nav-details{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: end;
+}
+.nav-prof{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+.below-nav{
+    display: flex;
+    gap: 60px;
+    padding: 5px 30px;
+    justify-content: space-between;
+    background-color: white;
+}
+.icon-img-nav{
+    width: 30px;
+}
+
+.nav-icons h6{
+    margin: 3px;
+}
+
+.nav-icon-one{
+    border-bottom: 3px solid black;
+}
+
+.location{
+    width: 250px;
+    position: relative;
+}
+
+.loc-img{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.upload-img{
+    width: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: rgb(240, 237, 237);
+    border-radius: 50%;
+    
+}
+
+.loc-timer{
+    width: 125px;
+    background-color: rgb(240, 237, 237);
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.locations{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px;
+    padding: 20px;
+}
+.loc-data-header{
+    margin: 5px 0;
+}
+
+.loc-data-p1{
+    margin: 0;
+    color: gray;
+}
+
+.loc-data-p2{
+    margin: 0;
+}
+
+.cat-banner{
+    padding: 20px;
+    background-color:rgb(241, 239, 239);
+}
+
+.cat-p{
+    padding-bottom: 2px;
+    border-bottom: 2px solid black;
+}
+
+.categories{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid lightgray;
+}
+
+.stay-cat{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid lightgray;
+}
+
+.more-cat{
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.foot-one{
+    display: flex;
+    gap: 10px;
+}
+
+.foot-icon-img{
+    width: 20px;
+}
+
+.footer{
+    width: 100%;
+    margin: 20px auto;
+    padding: 0 500px;
+
+}
